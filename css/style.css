@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+	font-family: "Roboto",sans-serif; font-size: 16px; color: #666666;margin: 0
+}
+.top-bar{
+	height: 50px;line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: darkred
+}
+.navbar .navbar-nav .nav-item .nav-link {
+	padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6; padding-top: 0; padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: dimgray
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113
+}
+main {
+	min-height: 600px
+}
+.gach-chan {
+	border-bottom: 2px solid #FFC113
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+footer a{
+	color: white
+}
+footer a:hover{
+	color: #FFC113
+}
+.bottom-bar{
+	height: 50px; line-height: 50px
+}
+#service a{
+	text-decoration: none; color: darkred
+}
+#service a:hover{
+	color: #FFC113
+}
+#why {
+	width: 100%; min-height: 350px; background-image: url("../images/400683613_180341985148919_6582478097946714531_n.jpg");background-repeat: no-repeat; background-size: cover;background-position: center top
+}
+
+
+
